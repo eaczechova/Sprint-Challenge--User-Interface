@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+    width: 65%;
+    margin: 20px auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.header-img-wrapper {
+    margin: 40px 0 15px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -110,6 +138,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
