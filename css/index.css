@@ -212,3 +212,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page */
+
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed black;
+}
+
+.about-intro {
+    margin-top: -20px;
+    padding: 20px;
+}
+
+.info {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.info img {
+    width: 100%;
+}
+
+.info h3 {
+    padding-top: 10px;
+}
+
+.info button {
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.info button:hover {
+    cursor: pointer;
+}
+
+.info-more {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
