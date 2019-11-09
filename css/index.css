@@ -311,6 +311,58 @@ footer nav a {
     animation: color 3s 1;
 }
 
+/* Blog page */
+
+.header-img-wrapper__blog {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.header-img-wrapper__blog img {
+    width: 100%;
+}
+
+.blog-intro {
+    width: 65%;
+    padding: 10px 20px;
+    margin: 20px auto;
+}
+
+.posts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    width: 48%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog-post button {
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+    margin: 20px 0;
+    padding: 7px;
+    font-size: 13px;
+}
+
+
+.blog-post h3 {
+    padding: 15px 0;
+}
+
+.blog-post p {
+    font-size: 14px;
+    text-align: justify;
+}
+
 
 @keyframes color {
     0% {
