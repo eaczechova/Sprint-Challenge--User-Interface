@@ -379,3 +379,23 @@ footer nav a {
         transform: scale(1) 
     }
 }
+
+@media (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .info, .blog-post {
+        width: 95%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .header-img-wrapper img {
+        width: 95%;
+    }
+}
